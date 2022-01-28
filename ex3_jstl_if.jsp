@@ -19,7 +19,7 @@
 	<c:if test="${sum%2 == 0 }">
 		<h2>${sum}는짝수입니다.</h2>
 	</c:if>
-	<c:if test="${sum%2 == 1 }">
+	<c:if test="${sum%2 == 1 }"> 
 		<h2>${sum}는 홀수입니다.</h2>
 	</c:if>
 
@@ -35,7 +35,7 @@
 		<c:otherwise>
 			<h2>${sum}는홀수입니다.</h2>
 		</c:otherwise>
-		<!-- else  -->
+		<!-- else  --> 
 	</c:choose>
 
 </body>
